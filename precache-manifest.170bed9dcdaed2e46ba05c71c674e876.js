@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "21df5d52f4844f68f000a66dad3fd068",
+    "revision": "bc3026632e529bc81f374f1b1c4d60ef",
     "url": "/pokehooks/index.html"
   },
   {
