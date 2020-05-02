@@ -30,7 +30,41 @@ function App() {
       <header>
         <h1 className="title">Pokehooks</h1>
 
-        <section className="wild-pokemon">{wildPokemon.name}</section>
+        <section className="wild-pokemon">
+          <h2>Wild Encounter</h2>
+          <img
+            src={
+              "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" +
+              wildPokemon.id +
+              ".png"
+            }
+            alt={wildPokemon.name}
+            className="sprite"
+          />
+          <h3>{wildPokemon.name}</h3>
+          <button className="catch-btn">Catch</button>
+        </section>
+
+        <section className="pokedex">
+          <h2>Pokedex</h2>
+          <div className="pokedex-list">
+            {pokedex.map((pokemon) => (
+              <div className="pokemon" key={pokemon.id}>
+                <img
+                  src={
+                    "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" +
+                    wildPokemon.id +
+                    ".png"
+                  }
+                  alt={pokemon.name}
+                  className="sprite"
+                />
+                <h3 className="pokemon-name">{pokemon.name}</h3>
+                <button className="remove">&times;</button>
+              </div>
+            ))}
+          </div>
+        </section>
       </header>
     </div>
   );
