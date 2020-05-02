@@ -17,12 +17,23 @@ function App() {
     const max = Math.floor(151);
     return Math.floor(Math.random() * (max - min + 1)) + min;
   };
-
+  // eslint-disable-next-line
   const encounterWildPokemon = () => {
     const API_URL = "https://pokeapi.co/api/v2/pokemon/" + pokeId();
     axios.get(API_URL).then((response) => {
       setWildPokemon(response.data);
     });
+  };
+
+  const catchPokemon = (pokemon) => {
+    setPokedex((state) => {
+      state = [pokemon, ...state];
+      /*  state.sort(function (a, b) {
+        return a.id - b.id;
+      }); */
+      return state;
+    });
+    encounterWildPokemon();
   };
 
   return (
@@ -42,7 +53,12 @@ function App() {
             className="sprite"
           />
           <h3>{wildPokemon.name}</h3>
-          <button className="catch-btn">Catch</button>
+          <button
+            className="catch-btn"
+            onClick={() => catchPokemon(wildPokemon)}
+          >
+            Catch
+          </button>
         </section>
 
         <section className="pokedex">
@@ -53,7 +69,7 @@ function App() {
                 <img
                   src={
                     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" +
-                    wildPokemon.id +
+                    pokemon.id +
                     ".png"
                   }
                   alt={pokemon.name}
