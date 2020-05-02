@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pokehooks/static/css/main.d1b05096.chunk.css",
+    "main.js": "/pokehooks/static/js/main.f1e2ad14.chunk.js",
+    "main.js.map": "/pokehooks/static/js/main.f1e2ad14.chunk.js.map",
+    "runtime-main.js": "/pokehooks/static/js/runtime-main.1502c45f.js",
+    "runtime-main.js.map": "/pokehooks/static/js/runtime-main.1502c45f.js.map",
+    "static/js/2.54aea067.chunk.js": "/pokehooks/static/js/2.54aea067.chunk.js",
+    "static/js/2.54aea067.chunk.js.map": "/pokehooks/static/js/2.54aea067.chunk.js.map",
+    "index.html": "/pokehooks/index.html",
+    "precache-manifest.fb1ab9fd5ba50ae91ccda658c97ff505.js": "/pokehooks/precache-manifest.fb1ab9fd5ba50ae91ccda658c97ff505.js",
+    "service-worker.js": "/pokehooks/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/pokehooks/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.54aea067.chunk.js.LICENSE.txt": "/pokehooks/static/js/2.54aea067.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/pokehooks/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1502c45f.js",
+    "static/js/2.54aea067.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.f1e2ad14.chunk.js"
+  ]
+}
