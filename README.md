@@ -16,6 +16,7 @@
 
 ## Description
 
+<img src="/public/pokehooks.jpg">
 Little side project using react hooks and a pokemon api.
 
 ## Live Demo
