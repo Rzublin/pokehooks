@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bc3026632e529bc81f374f1b1c4d60ef",
+    "revision": "6b80aa1c05e95beafa961d736db53809",
     "url": "/pokehooks/index.html"
   },
   {
-    "revision": "b412d31cd67c961c10e1",
-    "url": "/pokehooks/static/css/main.bd79a707.chunk.css"
+    "revision": "380ac68ebca7b63eedce",
+    "url": "/pokehooks/static/css/main.5d357309.chunk.css"
   },
   {
     "revision": "5acd5243e27a16272cce",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pokehooks/static/js/2.8c01f7e6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b412d31cd67c961c10e1",
+    "revision": "380ac68ebca7b63eedce",
     "url": "/pokehooks/static/js/main.1bb875aa.chunk.js"
   },
   {

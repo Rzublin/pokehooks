@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pokehooks/static/css/main.bd79a707.chunk.css",
+    "main.css": "/pokehooks/static/css/main.5d357309.chunk.css",
     "main.js": "/pokehooks/static/js/main.1bb875aa.chunk.js",
     "main.js.map": "/pokehooks/static/js/main.1bb875aa.chunk.js.map",
     "runtime-main.js": "/pokehooks/static/js/runtime-main.1502c45f.js",
@@ -8,15 +8,15 @@
     "static/js/2.8c01f7e6.chunk.js": "/pokehooks/static/js/2.8c01f7e6.chunk.js",
     "static/js/2.8c01f7e6.chunk.js.map": "/pokehooks/static/js/2.8c01f7e6.chunk.js.map",
     "index.html": "/pokehooks/index.html",
-    "precache-manifest.170bed9dcdaed2e46ba05c71c674e876.js": "/pokehooks/precache-manifest.170bed9dcdaed2e46ba05c71c674e876.js",
+    "precache-manifest.bc2f1ef46714a8441c75af5c65a5323f.js": "/pokehooks/precache-manifest.bc2f1ef46714a8441c75af5c65a5323f.js",
     "service-worker.js": "/pokehooks/service-worker.js",
-    "static/css/main.bd79a707.chunk.css.map": "/pokehooks/static/css/main.bd79a707.chunk.css.map",
+    "static/css/main.5d357309.chunk.css.map": "/pokehooks/static/css/main.5d357309.chunk.css.map",
     "static/js/2.8c01f7e6.chunk.js.LICENSE.txt": "/pokehooks/static/js/2.8c01f7e6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1502c45f.js",
     "static/js/2.8c01f7e6.chunk.js",
-    "static/css/main.bd79a707.chunk.css",
+    "static/css/main.5d357309.chunk.css",
     "static/js/main.1bb875aa.chunk.js"
   ]
 }
