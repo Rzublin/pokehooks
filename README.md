@@ -2,7 +2,8 @@
 
 Little side project using react hooks and a pokemon api.
 
-##Live Demo
+## Live Demo
+
 https://rzublin.github.io/pokehooks/
 
 ## Credits
