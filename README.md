@@ -1,4 +1,20 @@
-## Pokehooks
+<h1 align="center">Pokehooks</h1>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/made%20by-raphaelzueblin-orange.svg" >
+
+<img src="https://img.shields.io/badge/react-v16.13.1-blue.svg">
+
+<img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" >
+
+<img src="https://img.shields.io/github/languages/top/Rzublin/pokehooks.svg">
+
+<img src="https://img.shields.io/badge/License-MIT-green.svg">
+
+</p>
+
+## Description
 
 Little side project using react hooks and a pokemon api.
 
